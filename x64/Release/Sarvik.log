@@ -1,0 +1,32 @@
+﻿Build started 12.11.2015 17:23:50.
+     1>Project "C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\Sarvik\Sarvik.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Dell\Documents\Visual Studio 2013\Projects\serial\include" /IC:\opencv\build\\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\opencv\build\include\opencv2/imgproc.hpp(638): warning C4819: The file contains a character that cannot be represented in the current code page (1257). Save the file in Unicode format to prevent data loss
+     1>C:\opencv\build\include\opencv2/imgproc.hpp(3504): warning C4819: The file contains a character that cannot be represented in the current code page (1257). Save the file in Unicode format to prevent data loss
+     1>main.cpp(98): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(115): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(152): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'float', possible loss of data
+     1>main.cpp(160): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(166): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(167): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(219): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(306): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(437): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(452): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(473): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>main.cpp(487): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\x64\Release\Sarvik.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\\x64\vc12\lib opencv_world300.lib opencv_ts300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\x64\Release\Sarvik.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\x64\Release\Sarvik.lib" /MACHINE:X64 x64\Release\main.obj
+         "C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\x64\Release\serial.lib"
+         Generating code
+     1>c:\users\dell\documents\visual studio 2013\projects\sarvik\sarvik\main.cpp(407): warning C4700: uninitialized local variable 'f_counter' used
+         Finished generating code
+         Sarvik.vcxproj -> C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\x64\Release\Sarvik.exe
+     1>Done Building Project "C:\Users\Dell\documents\visual studio 2013\Projects\Sarvik\Sarvik\Sarvik.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.87
